@@ -1,0 +1,38 @@
+NativePrep 1.0.5-beta.2 — Windows beta installation
+
+Download only from https://github.com/OlehPoberezhnychenko/nativeprep-releases/releases/tag/v1.0.5-beta.2
+Windows x64 is required. The engine is bundled; Python, Node.js and Rust are not required.
+
+INSTALLER
+Close NativePrep before installing or updating, then run the setup EXE.
+The beta is unsigned, so Windows may show a publisher warning. Verify the source
+and checksum before deciding to run it. Do not disable your antivirus.
+If installation reports a locked DLL, cancel, close NativePrep and its engine,
+then retry. Do not skip a required file.
+
+PORTABLE ZIP
+Extract the entire ZIP into a writable folder, such as Downloads\NativePrep.
+Open the extracted folder and launch local-prep-studio.exe.
+Keep the binaries folder beside the EXE. Do not run directly inside the ZIP.
+WebView2 Runtime is required by the desktop shell; an unmanaged Windows machine
+may need the Microsoft runtime installed before the application can launch.
+
+FIRST TASK
+Start with built-in sample data or copies of your files. Run a sample pipeline,
+inspect its preview and export the result. Save your project for reuse.
+Keep original files and project backups while evaluating the beta.
+
+LIMITS
+The import cap is 1 GiB per file. CSV and Excel imports can require substantially
+more RAM than file size. Installation, upgrade and uninstall on a separate clean
+Windows machine have not yet been verified.
+
+FEEDBACK
+https://github.com/OlehPoberezhnychenko/nativeprep-releases/issues/new/choose
+Include version, Windows version, steps to reproduce and expected vs actual result.
+Help > Export Diagnostic Logs creates a ZIP. Review its contents before sharing.
+Never attach private source datasets, API keys or license keys to public reports.
+
+CHECKSUMS
+Compare Get-FileHash -Algorithm SHA256 with SHA256SUMS.txt in the release.
+Updates are manual: download a later beta and close the current app before updating.

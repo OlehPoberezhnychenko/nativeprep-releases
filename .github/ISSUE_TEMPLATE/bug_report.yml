@@ -1,0 +1,39 @@
+name: Report a bug
+description: A launch, workflow or export problem in the Windows beta
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Reports are public. Use synthetic examples. Never attach private datasets, license keys or API credentials. Review diagnostic logs before sharing them."
+  - type: input
+    id: version
+    attributes:
+      label: NativePrep version
+      placeholder: 1.0.5-beta.2
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version and package
+      placeholder: Windows 11 x64, portable ZIP
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include input format and approximate file size, without private records.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Reviewed diagnostic logs or screenshots
+      description: Help → Export Diagnostic Logs. Review the archive before attaching it.

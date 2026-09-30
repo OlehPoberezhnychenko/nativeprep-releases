@@ -1,6 +1,6 @@
-NativePrep 1.0.5-beta.2 — Windows beta installation
+NativePrep 1.0.5-beta.3 — Windows beta installation
 
-Download only from https://github.com/OlehPoberezhnychenko/nativeprep-releases/releases/tag/v1.0.5-beta.2
+Download only from https://github.com/OlehPoberezhnychenko/nativeprep-releases/releases/tag/v1.0.5-beta.3
 Windows x64 is required. The engine is bundled; Python, Node.js and Rust are not required.
 
 INSTALLER

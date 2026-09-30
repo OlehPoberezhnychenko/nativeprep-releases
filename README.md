@@ -7,9 +7,9 @@ Website: https://nativeprep.com
 
 ## Downloads
 
-[Windows installer](https://github.com/OlehPoberezhnychenko/nativeprep-releases/releases/download/v1.0.5-beta.2/NativePrep_1.0.5-beta.2_x64-setup.exe)
+[Windows installer](https://github.com/OlehPoberezhnychenko/nativeprep-releases/releases/download/v1.0.5-beta.3/NativePrep_1.0.5-beta.3_x64-setup.exe)
 
-[Portable ZIP](https://github.com/OlehPoberezhnychenko/nativeprep-releases/releases/download/v1.0.5-beta.2/NativePrep_1.0.5-beta.2_x64-portable.zip)
+[Portable ZIP](https://github.com/OlehPoberezhnychenko/nativeprep-releases/releases/download/v1.0.5-beta.3/NativePrep_1.0.5-beta.3_x64-portable.zip)
 
 This is a free, unsigned Windows x64 beta. Read INSTALLATION.txt and KNOWN_ISSUES.md
 before running it. Keep original datasets and project backups.

@@ -9,4 +9,8 @@
 - Updates are manual. Close the app before running a newer installer.
 - Existing projects using the CSV Skip policy retain it. Select strict handling
   if you want malformed records to stop an import rather than be discarded.
-- Downloads will only work once the GitHub prerelease is published.
+- DuckDB query and cache budgets reduce resource pressure, but Python/Arrow tables
+  still use memory. Disk spill is bounded and does not make every operation
+  out-of-core. Start with smaller copies of your files.
+- Temporary spill data is cleaned up after normal execution/cancellation. An OS
+  crash or power loss can leave temporary files in the local cache directory.
